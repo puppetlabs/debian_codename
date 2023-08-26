@@ -29,7 +29,7 @@ Given a codename or a version string, `find` will return a hash with the codenam
     DebianCodename.find('groovy')
     => {:version=>"20.10", :codename=>"groovy", :distribution=>"ubuntu"}
 
-    DebianCodename.fast_find('12')
+    DebianCodename.find('12')
     => {:version=>"12", :codename=>"bookworm", :distribution=>"debian"}
 
 
