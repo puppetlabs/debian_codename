@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Convert Debian/Ubuntu codenames to version numbers and vice-versa'
   spec.description = spec.summary
   spec.homepage = 'https://github.com/puppetlabs/debian_codename'
-  spec.required_ruby_version = '>= 2.4.0'
+  spec.required_ruby_version = '>= 3.0.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
