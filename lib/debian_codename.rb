@@ -35,6 +35,8 @@ module DebianCodename
   # improvements
   UBUNTU_CODENAMES = {
     '@distribution' => 'ubuntu',
+    '24.10' => %w[oracular oriole],
+    '24.04' => %w[noble numbat],
     '23.04' => %w[lunar lobster],
     '22.10' => %w[kinetic kudu],
     '22.04' => %w[jammy jellyfish],
